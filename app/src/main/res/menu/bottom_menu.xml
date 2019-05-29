@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+        android:icon="@drawable/forward_button"
+    android:id="@+id/store"
+    android:title="Store"
+    app:showAsAction="always|withText"
+    android:enabled="true"/>
+    <item
+            android:icon="@drawable/forward_button"
+            app:showAsAction="always|withText"
+            android:enabled="true"
+            android:id="@+id/home"
+            android:title="Home"/>
+    <item
+            android:icon="@drawable/forward_button"
+            app:showAsAction="always|withText"
+            android:enabled="true"
+            android:id="@+id/newsfeed"
+            android:title="Newsfeed"/>
+</menu>

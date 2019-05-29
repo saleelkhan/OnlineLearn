@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/user_info"
+            android:orderInCategory="800"
+            android:title="User"
+            android:icon="@drawable/blank_user"
+            app:showAsAction="ifRoom"></item>
+    <item
+            android:id="@+id/refresh"
+            android:orderInCategory="500"
+            android:title="User"
+            android:icon="@drawable/forward_button"
+            app:showAsAction="ifRoom"></item>
+</menu>
